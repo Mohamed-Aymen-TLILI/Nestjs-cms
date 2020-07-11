@@ -38,7 +38,7 @@ export class AuthService {
       sub: foundUser._id,
       role: '',
     };
-    if (foundUser.email === 'sam@t.fr') {
+    if (foundUser.email === 'myappwebpro@gmail.com') {
       payload.role = 'admin';
     } else {
       payload.role = 'user';
